@@ -27,3 +27,4 @@ $ganache_cli --noVMErrorsOnRPCResponse --networkId 1337 --mnemonic "$seed_phrase
 
 child=$!
 wait "$child"
+
