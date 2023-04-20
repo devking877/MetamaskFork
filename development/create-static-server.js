@@ -3,6 +3,7 @@ const path = require('path');
 
 const serveHandler = require('serve-handler');
 
+//CreateHttpServer
 const createStaticServer = (rootDirectory) => {
   return http.createServer((request, response) => {
     if (request.url.startsWith('/node_modules/')) {
